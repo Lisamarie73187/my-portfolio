@@ -19,7 +19,7 @@ h2{
     font-size: 20pt;
     text-align: center;
     // padding: 3px;
-    margin: 10px;
+    // margin: 10px;
     letter-spacing: 1pt;
 }
 
@@ -166,8 +166,8 @@ p{
     padding: 10px;
 }
 
-.contact_icons > div{
-    color: white;
-    font-size: 30pt;
-    padding-left: 10px;
+.contact_icons > a{
+    color: $white_trans;
+    font-size: 40pt;
+    padding-left: 20px;
 }

@@ -67,10 +67,10 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="contact_icons">
-                    <div><FaGithubSquare/></div>
-                    <div><FaLinkedinSquare/></div>
-                    <div><FaBehanceSquare/></div>
-                    <div><FaEnvelopeSquare/></div>
+                    <a href="https://github.com/Lisamarie73187" target="https://github.com/Lisamarie73187"><FaGithubSquare/></a>
+                    <a href="https://www.linkedin.com/in/lisaherzberg/" target="https://www.linkedin.com/in/lisaherzberg/"><FaLinkedinSquare/></a>
+                    <a href="https://www.behance.net/lherzber0f53" target="https://www.behance.net/lherzber0f53"><FaBehanceSquare/></a>
+                    <a href="mailto:lisamarieherzberg@gmail.com"><FaEnvelopeSquare/></a>
                 </div>
                 <section ref={(section) => { this.about = section; }}><About/></section>
                 <section ref={(section) => { this.Skills = section; }}><Skills/></section>

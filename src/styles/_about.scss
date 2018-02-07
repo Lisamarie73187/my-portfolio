@@ -32,7 +32,7 @@
     background-color: $main_color_trans;
     padding: 40px 20px;
     width: 100vw;
-    height: 200px;
+    // height: 200px;
 }
 
 
@@ -57,4 +57,11 @@
         margin: 20px auto;
         width: 20vw;
         height: 3px;
+}
+
+.darkBox  h2{
+    border-bottom: $highlight-color 2px solid;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
 }

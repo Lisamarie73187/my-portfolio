@@ -16,12 +16,16 @@ class Header extends Component {
                     <div onClick={this.props.clickAbout}>About</div>
                     <div onClick={this.props.clickSkills}>Skills</div>
                     <div onClick={this.props.clickProjects}>Projects</div>
-                    <div onClick={this.props.clickContact}>Contact</div>
+                    <div style={noBorder}onClick={this.props.clickContact}>Contact</div>
                 </div>
             </div>
             </div>
         )
     }
+}
+
+const noBorder = {
+    border: 'none'
 }
 
 
