@@ -11,11 +11,11 @@ class Projects extends Component {
     render() {
         return (
             <div>
-               <div className="projects">
+               <div>
                     <div>
                         <h3>Goalsy</h3>
-                        <p className="projects_right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
-                   </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
+                    </div>
                    <div style={sample}>image</div>
                </div>
             </div>
