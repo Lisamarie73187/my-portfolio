@@ -13,8 +13,8 @@ class Projects extends Component {
             <div>
                <div className="projects">
                     <div>
-                        <h2>Goalsy</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
+                        <h3>Goalsy</h3>
+                        <p className="projects_right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
                    </div>
                    <div style={sample}>image</div>
                </div>

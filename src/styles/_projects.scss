@@ -1,5 +1,5 @@
 .projects{
-    background-color: $main_color;
+    background-color: $secondary_background_color;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -7,4 +7,9 @@
 	align-items: stretch;
     margin-top: 100px;
     padding: 20px;
+}
+
+.projects_right{
+    text-align: right;
+    padding: 10px;
 }

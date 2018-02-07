@@ -1,5 +1,5 @@
 .header{
-    background-color: $main_color;
+    // background-color: $main_color;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -25,19 +25,7 @@
     cursor: pointer;
 }
 
-.float_right{
-    float: right;
-    transform: translateY(-3px);
-    padding-right: 10px;
-    color: $white_trans;
-    font-size: 25pt;
-}
 
-.float_right > div {
-    display: inline;
-    padding-left: 20px;
-    cursor: pointer;
-}
 
 
 

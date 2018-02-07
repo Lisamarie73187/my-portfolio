@@ -64,11 +64,13 @@ p{
 
 .rapper{
     padding-top: 170px;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: center;
+    justify-content: center;
+    height: 45vh;
+    
 }
 
 .grey_box{
@@ -151,4 +153,21 @@ p{
             opacity: 0; }
     100% {height: 300px;
             opacity: 100%}
+}
+
+.contact_icons{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    background-color: $main_color_trans;
+    padding: 10px;
+}
+
+.contact_icons > div{
+    color: white;
+    font-size: 30pt;
+    padding-left: 10px;
 }
