@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import FaGithubSquare from 'react-icons/lib/fa/github-square'
+
 
 class Header extends Component {
     constructor(props) {
@@ -10,13 +12,16 @@ class Header extends Component {
 
     render() {
         return (
-            <div>
+            <div className="header">
                 <div className="flex__left">
                     <div onClick={this.props.clickTop}>Home</div>
                     <div onClick={this.props.clickAbout}>About</div>
                     <div onClick={this.props.clickSkills}>Skills</div>
                     <div onClick={this.props.clickProjects}>Projects</div>
                     <div onClick={this.props.clickContact}>Contact</div>
+                </div>
+                <div className="flex_right">
+                    <FaGithubSquare/>
                 </div>
             </div>
         )

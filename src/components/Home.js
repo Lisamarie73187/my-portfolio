@@ -16,10 +16,15 @@ class Home extends Component {
         super(props)
         this.state = {
         }
+        this.scrollTop = this.scrollTop.bind(this)
         this.scrollAbout = this.scrollAbout.bind(this)
         this.scrollSkills = this.scrollSkills.bind(this)
         this.scrollProjects = this.scrollProjects.bind(this)
         this.scrollContact = this.scrollContact.bind(this)
+    }
+
+    scrollTop(){
+        scrollToComponent(this.top, { offset: 10, align: 'top', duration: 1000})
     }
 
     scrollAbout(){
@@ -42,10 +47,12 @@ class Home extends Component {
         return (
             <div>
                 <div className="wrapper">
+                <section ref={(section) => { this.top = section; }}>
                 <Header clickAbout={this.scrollAbout}
                         clickSkills={this.scrollSkills}
                         clickProjects={this.scrollProjects}
-                        clickContact={this.scrollContact}/>
+                        clickContact={this.scrollContact}
+                        clickTop={this.scrollTop}/></section>
                     <div className="rapper">
                         <div className="grey_box">
                             <div className="name_header">Lisa<br/>Marie<br/>Herzberg<br/></div>
