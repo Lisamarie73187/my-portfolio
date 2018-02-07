@@ -1,0 +1,154 @@
+// main //
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-family: $header_font;
+    color: white;
+    font-size: 25pt;
+    text-align: center;
+    padding: 3px;
+    margin: 10px;
+}
+
+h2{
+    font-family: $header_font;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    // padding: 3px;
+    margin: 10px;
+    letter-spacing: 1pt;
+}
+
+h3{
+    font-family: $header_font;
+    color: white;
+    font-size: 20pt;
+    text-align: right;
+    // padding: 3px;
+    margin: 10px;
+    letter-spacing: 1pt;
+}
+
+p{
+    font-family: $body_font;
+    font-weight: lighter;
+    color: white;
+    padding: 10px 50px;
+    line-height: 15pt;
+    letter-spacing: .7pt;
+}
+
+.p{
+    font-family: $body_font;
+    font-weight: lighter;
+    color: white;
+    padding: 10px;
+    line-height: 15pt;
+    letter-spacing: .7pt;
+    margin: 0px;
+    font-size: 12pt;
+}
+
+.wrapper{
+    height: 100%;
+    background-image: url("../assets/hero.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rapper{
+    padding-top: 150px;
+    padding-bottom: 170px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.grey_box{
+    animation-name: greybox;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    height: 200px;
+    width: 300px;
+    margin-top: 23px;
+    background-color: $transparent_box;
+    text-align: right;
+    padding: 20px;
+    margin-right: 29px;
+    margin-left: 180px;
+}
+
+@keyframes greybox {
+    0% { 
+        opacity: 0; 
+        transform: translateX(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+}
+
+.name_header{
+    font-family : $header_fonttwo;
+    color : #FFFFFF;
+    font-size: 38pt;
+    text-align: right;
+    letter-spacing: 6pt;
+    line-height: 50pt;
+}
+
+.title_header{
+    animation-name: web;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+    font-family: $body_font;
+    font-weight: lighter;
+    color: white;
+    font-size: 25pt;
+    margin-top: 190px;
+    margin-left: 20px;
+    line-height: 30pt;
+    letter-spacing: 3pt;
+}
+
+@keyframes web {
+    0% { 
+        opacity: 0; 
+        transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+}
+
+.hero_line{
+    animation-name: draw;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+    width: 5px;
+    background-color: $highlight-color;
+    color: $highlight-color;
+    font-size: 1pt;
+}
+
+@keyframes draw {
+    0%   {  height: 0px;
+            opacity: 0; }
+    100% {height: 300px;
+            opacity: 100%}
+}

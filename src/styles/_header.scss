@@ -1,0 +1,27 @@
+
+.flex__left{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+    align-content: stretch;
+    background-color: $main_color_trans;
+    color: white;
+    font-family: $body_font;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    border-bottom: 2px solid $highlight_color;
+}
+
+.flex__left > div {
+    padding: 10px;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,60 @@
+
+
+.gradient_Box{
+    margin-top: 100px;
+    background : -moz-linear-gradient(92.33% -59.62% -150deg,rgba(216, 172, 88, 1) 0%,rgba(206, 120, 132, 1) 100%);
+    background : -webkit-linear-gradient(-150deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+    background : -webkit-gradient(linear,92.33% -59.62% ,7.67% 159.62% ,color-stop(0,rgba(216, 172, 88, 1) ),color-stop(1,rgba(206, 120, 132, 1) ));
+    background : -o-linear-gradient(-150deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+    background : -ms-linear-gradient(-150deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8AC58', endColorstr='#CE7884' ,GradientType=0)";
+    background : linear-gradient(240deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+    opacity : 0.98;
+    filter: alpha(opacity=78) progid:DXImageTransform.Microsoft.Alpha(opacity=78) progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8AC58',endColorstr='#CE7884' , GradientType=1);
+    padding: 50px;
+}
+
+.about_line{
+    background-color: $highlight-color;
+    color: $highlight-color;
+    font-size: 1pt;
+    width: 20vw;
+    margin: auto;
+    height: 5px;
+}
+
+.darkBox{
+    animation-name: fading;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    background-color: $main_color_trans;
+    padding: 40px 20px;
+    width: 100vw;
+    height: 200px;
+}
+
+
+@keyframes fading {
+    0%   {opacity: 0; }
+    100% {opacity: 100%}
+}
+
+.flex{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+    align-content: stretch;
+}
+
+.line{
+    background-color: $highlight-color;
+        color: $highlight-color;
+        font-size: 1pt;
+        margin: 20px auto;
+        width: 20vw;
+        height: 3px;
+}
