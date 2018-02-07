@@ -29,19 +29,19 @@ class Skills extends Component {
                 <div className="skills">
                     <h2>Skills</h2>
                         <div className="icons">
-                            <img src={html} alt="html" height="90px"/>
-                            <img src={css} alt="css" height="90px"/>
-                            <img src={js} alt="js" height="80px"/>
-                            <img src={react} alt="postgres" height="90px"/>
-                            <img src={redux} alt="redux" height="80px"/>
-                            <img src={git} alt="git" height="80px"/>
-                            <img src={express} alt="express" height="80px"/>
-                            <img src={node} alt="node" height="60px"/><br/>
-                            <img src={postgres} alt="postgres" height="80px"/>
-                            <img src={heroku} alt="heroku" height="80px"/>
-                            <img src={sass} alt="sass" height="80px"/>
-                            <img src={ai} alt="ai" height="75px"/>
-                            <img src={ps} alt="ps" height="75px"/>
+                            <img src={html} alt="html" height="70px"/>
+                            <img src={css} alt="css" height="70px"/>
+                            <img src={js} alt="js" height="60px"/>
+                            <img src={react} alt="postgres" height="70px"/>
+                            <img src={redux} alt="redux" height="60px"/>
+                            <img src={git} alt="git" height="60px"/>
+                            <img src={express} alt="express" height="60px"/>
+                            <img src={node} alt="node" height="40px"/><br/>
+                            <img src={postgres} alt="postgres" height="60px"/>
+                            <img src={heroku} alt="heroku" height="60px"/>
+                            <img src={sass} alt="sass" height="60px"/>
+                            <img src={ai} alt="ai" height="55px"/>
+                            <img src={ps} alt="ps" height="55px"/>
                         </div>
                 </div>
             </div>

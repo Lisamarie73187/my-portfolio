@@ -28,19 +28,19 @@ class Home extends Component {
     }
 
     scrollAbout(){
-        scrollToComponent(this.about, { offset: 10, align: 'top', duration: 1000})
+        scrollToComponent(this.about, { offset: -10, align: 'top', duration: 1000})
     }
 
     scrollSkills(){
-        scrollToComponent(this.Skills, { offset: 10, align: 'top', duration: 1000})
+        scrollToComponent(this.Skills, { offset: -10, align: 'top', duration: 1000})
     }
 
     scrollProjects(){
-        scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 1000})
+        scrollToComponent(this.Projects, { offset: -10, align: 'top', duration: 1000})
     }
 
     scrollContact(){
-        scrollToComponent(this.Contact, { offset: 0, align: 'top', duration: 1000})
+        scrollToComponent(this.Contact, { offset: -10, align: 'top', duration: 1000})
     }
 
     render() {

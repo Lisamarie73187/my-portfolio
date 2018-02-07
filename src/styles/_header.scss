@@ -1,21 +1,20 @@
 .header{
-    background-color: $main_color_trans;
+    background-color: $main_color;
     padding: 10px;
     position: fixed;
     top: 0;
     z-index: 200;
-    border-bottom: 2px solid $highlight_color;
-    width: 100vw;
+    width: 98.5vw;
 }
 
 .flex__left{
+    float: left;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: baseline;
     align-content: stretch;
-    background-color: $main_color_trans;
     color: white;
     font-family: $body_font;
 }
@@ -23,6 +22,20 @@
 .flex__left > div {
     padding: 10px;
     font-size: 14pt;
+    cursor: pointer;
+}
+
+.float_right{
+    float: right;
+    transform: translateY(-3px);
+    padding-right: 10px;
+    color: $white_trans;
+    font-size: 25pt;
+}
+
+.float_right > div {
+    display: inline;
+    padding-left: 20px;
     cursor: pointer;
 }
 

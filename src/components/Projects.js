@@ -11,11 +11,20 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+               <div className="projects">
+                    <div>
+                        <h2>Goalsy</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
+                   </div>
+                   <div style={sample}>image</div>
+               </div>
             </div>
         )
     }
 }
 
-
+const sample = {
+    width: '500px',
+    backgroundColor: 'white'
+}
 export default Projects
