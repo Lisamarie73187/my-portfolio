@@ -1,15 +1,27 @@
 .skills{
     margin-top: 100px;
     background-color: $main_color_trans;
-    padding: 20px;
+    padding: 20px 250px;
     text-align: center;
+    
 }
 
 
 .icons{
-    padding-bottom: 25px;
+    // padding-bottom: 25px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
-.icons > img {
-    padding: 10px;
+.icons > div {
+    padding: 10px 6px;
+}
+
+.icons  > div > p{
+    padding: 0px;
+    margin: 5px;
 }

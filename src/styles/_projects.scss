@@ -1,0 +1,27 @@
+.projects {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+    margin-top: 100px;
+}
+
+.projects > div {
+    background-color: $secondary_background_color;
+    padding: 20px;
+    text-align: right;
+}
+
+.right_align_paragraph{
+    text-align: right;
+    padding: 0px;
+    padding-left: 200px;
+}
+
+.left_align_paragraph{
+    text-align: left;
+    padding: 0px;
+    padding-right: 200px;
+}
+

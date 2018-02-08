@@ -19,19 +19,19 @@ class About extends Component {
                 <div className="darkBox" style={border}>
                     <div>
                         <h2>Skills</h2>
-                        <p>I'm a driven, enthusiastic professional with a passion for computers and their immense diversity.</p>
+                        <p className="p">I'm a driven, enthusiastic professional with a passion for computers and their immense diversity.</p>
                     </div>
                 </div>
                 <div className="darkBox" style={border}>
                     <div>
                         <h2>Skills</h2>
-                        <p>I'm a driven, enthusiastic professional with a passion for computers and their immense diversity.</p>
+                        <p className="p">I'm a driven, enthusiastic professional with a passion for computers and their immense diversity.</p>
                     </div>
                 </div>
                 <div className="darkBox">
                     <div>
                         <h2>Skills</h2>
-                        <p>I'm a driven, enthusiastic professional with a passion for computers and their immense diversity.</p>
+                        <p className="p">I'm a driven, enthusiastic professional with a passion for computers and their immense diversity.</p>
                     </div>
                 </div>
             </div>

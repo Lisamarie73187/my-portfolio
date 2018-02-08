@@ -25,9 +25,22 @@ h3{
     color: white;
     font-size: 20pt;
     text-align: right;
-    // padding: 3px;
-    margin: 10px;
     letter-spacing: 1pt;
+    border-bottom: $highlight_color 1.5px solid;
+    padding: 10px 0px;
+    width: 200px;
+    margin-left: 750px;
+}
+
+h4{
+    font-family: $header_font;
+    color: white;
+    font-size: 20pt;
+    text-align: left;
+    letter-spacing: 1pt;
+    border-bottom: $highlight_color 1.5px solid;
+    padding: 10px 0px;
+    width: 200px;
 }
 
 p{
@@ -158,7 +171,7 @@ p{
 	flex-wrap: nowrap;
 	justify-content: center;
     align-items: stretch;
-    width: 100%;
+    width: 100vw;
     background-color: $main_color_trans;
     padding: 10px;
 }

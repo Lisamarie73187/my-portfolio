@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import goalsy from '../assets/goalsy.png'
+
 
 class Projects extends Component {
     constructor(props) {
@@ -11,20 +13,17 @@ class Projects extends Component {
     render() {
         return (
             <div>
-               <div>
+               <div className="projects">
                     <div>
                         <h3>Goalsy</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
+                        <p className="right_align_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
                     </div>
-                   <div style={sample}>image</div>
+                    {/* <div style={sample}><img src={goalsy} alt="goalsy"/></div> */}
                </div>
             </div>
         )
     }
 }
 
-const sample = {
-    width: '500px',
-    backgroundColor: 'white'
-}
+
 export default Projects
