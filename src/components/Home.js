@@ -11,7 +11,7 @@ import Header from './Header'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
-import ProjectsTwo from './ProjectsTwo'
+// import ProjectsTwo from './ProjectsTwo'
 import Contact from './Contact'
 
 
@@ -76,7 +76,6 @@ class Home extends Component {
                 <section ref={(section) => { this.about = section; }}><About/></section>
                 <section ref={(section) => { this.Skills = section; }}><Skills/></section>
                 <section ref={(section) => { this.Projects = section; }}><Projects/></section>
-                <ProjectsTwo/>
                 <section ref={(section) => { this.Contact = section; }}><Contact/></section>
             </div>
         )
