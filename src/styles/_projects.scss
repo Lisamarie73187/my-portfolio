@@ -1,17 +1,45 @@
 .projects {
+    background-color: $secondary_background_color;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: flex-start;
     align-items: stretch;
-    margin-top: 100px;
-    > div:nth-child(1){
-        background-color: $secondary_background_color;
+    > div{
+        padding: 10px;
     }
-    >div::nth-child(2){
-        text-align: left;
+    p{
+        padding: 10px 0;
+        margin: 0px;
     }
 }
 
+.project_title{
+    font-family: $header_font;
+    color: white;
+    font-size: 23pt;
+    text-align: left;
+    letter-spacing: 1pt;
+    margin: 10px 0;
+    span{
+        font-family: $body_font;
+        font-weight: lighter;
+        color: white;
+        font-size: 12pt;
+        line-height: 15pt;
+        letter-spacing: .7pt;
+    }
+}
 
+.project_line{
+    background-color: $highlight-color;
+    width: 400px;
+    height: 2px;
+    font-size: 1pt;
+    margin: 10px 0;
+    color: $highlight-color;
+}
 
+.project_tools{
+    font-weight: bold;
+}

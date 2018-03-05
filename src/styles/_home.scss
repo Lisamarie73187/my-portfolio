@@ -24,12 +24,12 @@ h3{
     font-family: $header_font;
     color: white;
     font-size: 20pt;
-    text-align: right;
+    text-align: left;
     letter-spacing: 1pt;
-    border-bottom: $highlight_color 1.5px solid;
+    // border-bottom: $highlight_color 1.5px solid;
     padding: 10px 0px;
-    width: 200px;
-    margin-left: 50vw;
+    margin: 0px;
+    width: 500px;
 }
 
 h4{
@@ -172,8 +172,10 @@ p{
 	justify-content: center;
     align-items: stretch;
     width: 100vw;
+    box-sizing: border-box;
     background-color: $main_color_trans;
     padding: 10px;
+
 }
 
 .contact_icons > a{

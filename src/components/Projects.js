@@ -16,13 +16,18 @@ class Projects extends Component {
     render() {
         return (
             <div>
-               <div className="projects">
+                <div className="projects">
                     <div>
-                        <h3>Goalsy</h3>
-                        <p style={Alignleft}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
+                        <img src={goalsy} alt="goalsy" width="350px"/>
                     </div>
                     <div>
-                        <img src={goalsy} alt="goalsy" width="400px"/>
+                        <div className="project_title">Goalsy - <span>Full Stack web application to help you keep track of your goals and view your goal progress.</span></div>
+                        <div className="project_line">l</div>
+                        <p className="project_tools">Tools: React, Redux, Auth0, Node, Express, Massive, PostgreSQL, and Chart.js.</p>
+                        <p>• User can register and login to keep track of their goals.<br/>
+                        • User can create goals, add tasks for the goals, and add subtasks to the tasks.<br/>
+                        • User can mark tasks complete and view goal progress.<br/>
+                        • User can view their dashboard showing the overview of goals and analytics using chart.js.</p>
                     </div>
                </div>
             </div>
@@ -30,8 +35,6 @@ class Projects extends Component {
     }
 }
 
-const Alignleft = {
-    textAlign: 'right'
-}
+
 
 export default Projects
