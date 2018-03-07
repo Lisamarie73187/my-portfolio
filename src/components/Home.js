@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import scrollToComponent from 'react-scroll-to-component'
+import "animate.css/animate.min.css"
+import ScrollAnimation from 'react-animate-on-scroll'
 
 import FaGithubSquare from 'react-icons/lib/fa/github-square'
 import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square'
@@ -53,12 +55,14 @@ class Home extends Component {
         return (
             <div>
                 <div className="wrapper">
+                <ScrollAnimation animateIn="fadeIn" offset={100}>
                 <section ref={(section) => { this.top = section; }}>
                 <Header clickAbout={this.scrollAbout}
                         clickSkills={this.scrollSkills}
                         clickProjects={this.scrollProjects}
                         clickContact={this.scrollContact}
                         clickTop={this.scrollTop}/></section>
+                </ScrollAnimation>
                     <div className="rapper">
                         <div className="grey_box">
                             <div className="name_header">Lisa<br/>Marie<br/>Herzberg<br/></div>

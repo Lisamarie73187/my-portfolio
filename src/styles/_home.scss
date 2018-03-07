@@ -183,3 +183,17 @@ p{
     font-size: 40pt;
     padding-left: 20px;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
