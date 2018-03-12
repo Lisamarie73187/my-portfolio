@@ -16,7 +16,7 @@ h1{
 h2{
     font-family: $header_font;
     padding-top: 40px;
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 20pt;
     letter-spacing: 1pt;
@@ -26,12 +26,10 @@ h3{
     font-family: $header_font;
     color: white;
     font-size: 20pt;
-    text-align: left;
+    text-align: center;
+    padding: 10px;
     letter-spacing: 1pt;
-    // border-bottom: $highlight_color 1.5px solid;
-    padding: 10px 0px;
     margin: 0px;
-    width: 500px;
 }
 
 h4{

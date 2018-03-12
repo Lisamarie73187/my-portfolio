@@ -1,13 +1,21 @@
 .projects {
-    background-color: $secondary_background_color;
+    background-color: $main_color_trans;
     margin-top: 100px;
-    padding: 0 180px;
-    > div{
-        padding: 10px;
-    }
+    padding-top: 50px;
+}
+
+.projectsParagraph{
+    padding: 20px 200px;
     p{
-        padding: 10px 0;
-        margin: 0px;
+        padding: 0;
+    }
+}
+
+.projectPictures{
+    padding: 10px 150px;
+    text-align: center;
+    img{
+        padding: 10px;
     }
 }
 
@@ -28,14 +36,6 @@
     }
 }
 
-.project_line{
-    background-color: $highlight-color;
-    width: 400px;
-    height: 2px;
-    font-size: 1pt;
-    margin: 10px 0;
-    color: $highlight-color;
-}
 
 .project_tools{
     font-weight: bold;

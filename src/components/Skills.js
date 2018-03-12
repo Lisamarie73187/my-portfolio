@@ -27,7 +27,7 @@ class Skills extends Component {
         return (
             <div>
                 <div className="skills">
-                    <h2>Skills</h2>
+                    <h3>Skills</h3>
                         <div className="icons">
                             <div>
                                 <img src={html} alt="html" height="70px"/>
