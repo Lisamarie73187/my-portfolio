@@ -10,6 +10,7 @@
     "react-animate-on-scroll": "^2.0.2",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
+    "react-reveal": "^1.2.1",
     "react-scripts": "1.1.0",
     "react-scroll-to-component": "^1.0.2"
   },

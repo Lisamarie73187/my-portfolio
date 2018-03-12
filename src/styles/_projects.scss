@@ -1,11 +1,7 @@
 .projects {
     background-color: $secondary_background_color;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-    align-items: stretch;
     margin-top: 100px;
+    padding: 0 180px;
     > div{
         padding: 10px;
     }
@@ -18,10 +14,10 @@
 .project_title{
     font-family: $header_font;
     color: white;
-    font-size: 23pt;
+    font-size: 20pt;
     text-align: left;
     letter-spacing: 1pt;
-    margin: 10px 0;
+    margin: 10px 0px;
     span{
         font-family: $body_font;
         font-weight: lighter;
