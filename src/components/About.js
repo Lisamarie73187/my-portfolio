@@ -44,7 +44,6 @@ const border = {
 
 const about = {
     fontSize: '15pt',
-    padding: '0 200px',
     letterSpacing: '0'
 }
 

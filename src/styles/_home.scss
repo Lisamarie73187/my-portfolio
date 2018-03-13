@@ -15,7 +15,6 @@ h1{
 
 h2{
     font-family: $header_font;
-    padding-top: 40px;
     text-align: left;
     color: white;
     font-size: 20pt;
@@ -61,8 +60,8 @@ p{
     font-family: $body_font;
     font-weight: lighter;
     color: white;
-    padding: 10px 50px;
-    line-height: 15pt;
+    padding: 10px 200px;
+    line-height: 18pt;
     letter-spacing: .7pt;
 }
 
@@ -94,7 +93,6 @@ p{
 	flex-wrap: nowrap;
     justify-content: center;
     height: 45vh;
-    
 }
 
 .grey_box{
@@ -198,4 +196,14 @@ p{
     padding-left: 20px;
 }
 
-  
+@media (max-width: 1025px) {
+    .rapper{
+        transform: translateX(-100px)
+    }
+    .title_header{
+        font-size: 20pt;
+    }
+    p{
+    padding: 10px 20px;
+    }
+  }

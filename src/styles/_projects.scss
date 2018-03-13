@@ -56,3 +56,12 @@
 .project_tools{
     font-weight: bold;
 }
+
+@media (max-width: 770px) {
+    .projectsParagraph{
+        padding: 20px 5vw;
+    }
+    .projectPictures{
+        padding: 15px 50px;
+    }
+  }
