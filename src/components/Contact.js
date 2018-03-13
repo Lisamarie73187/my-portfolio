@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import Resume from '../assets/LisaHerzbergWeb Developer.pdf'
+
 
 class Contact extends Component {
     constructor(props) {
@@ -12,7 +14,9 @@ class Contact extends Component {
         return (
             <div>
                 <div className="contact">
-                    <div className="button">Download My Résumé</div>
+                <a target="_blank" alt="Lisa Resume" title="Lisa's Resume" href={Resume}><div>
+                Download My Résumé
+                </div></a>
                 </div>
             </div>
         )

@@ -1,5 +1,8 @@
 .contact {
     padding: 200px 420px;
+    a{
+        text-decoration: none;
+    }
     div{
         background : -moz-linear-gradient(92.33% -59.62% -150deg,rgba(216, 172, 88, 1) 0%,rgba(206, 120, 132, 1) 100%);
         background : -webkit-linear-gradient(-150deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
@@ -18,6 +21,7 @@
         font-size: 25pt;
         border: 1px solid white;
         cursor: pointer;
+        box-shadow: 7px 6px 22px -3px rgba(0,0,0,0.60);
     }
 }
 
