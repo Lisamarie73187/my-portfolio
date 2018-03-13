@@ -43,6 +43,20 @@ h4{
     width: 200px;
 }
 
+h5{
+    font-family: $header_font;
+    color: white;
+    font-size: 16pt;
+    display: inline;
+    margin: auto;
+    padding: 0 10px;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
 p{
     font-family: $body_font;
     font-weight: lighter;

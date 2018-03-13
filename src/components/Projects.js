@@ -31,6 +31,7 @@ class Projects extends Component {
                                 • User can create goals, add tasks for the goals, and add subtasks to the tasks.<br/>
                                 • User can mark tasks complete and view goal progress.<br/>
                                 • User can view their dashboard showing the overview of goals and analytics using chart.js.</p>
+                            <div className="projectLinks"><a target="_blank" rel="noopener noreferrer" alt="GitHub Goalsy" href="https://github.com/Lisamarie73187/goal-tracker">GitHub</a></div>
                             </div>
                         <div className="projectPictures">
                             <img src={goalsylandingPage} alt="goalsyLandingPage" width="280px"/>
@@ -44,6 +45,10 @@ class Projects extends Component {
                             <p>• Collaborated with team using Github, Trello, and Slack. <br/>
                             • Personally responsible for admin portal, admin analytics using chart.js, and design.<br/>
                             • Created wireframes, logo, and fictional products using Adobe Photoshop and Illustrator.</p>
+                            <div className="projectLinks">
+                            <a target="_blank" rel="noopener noreferrer" alt="GitHub Scentric" href="https://github.com/melodymennen/scentric">GitHub</a>
+                            <a target="_blank" rel="noopener noreferrer" alt="Scentric" href="http://scentric.store/">Live Site</a>
+                            </div>
                         </div>
                     </div>
                     <div className="projectPictures">
