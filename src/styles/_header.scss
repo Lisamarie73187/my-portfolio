@@ -1,5 +1,4 @@
 .header{
-    // background-color: $secondary_background_color;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -25,6 +24,42 @@
     cursor: pointer;
     border-right: $highlight_color 1.5px solid;
 }
+
+.responsive_header{
+    display: none;
+}
+
+.responsive_menu{
+    background-color: $main_color;
+    font-family: $body_font;
+    font-size: 14pt;
+    width: 100%;
+    top: 0;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+    div{
+        padding: 10px 20px;
+    }
+}
+.x{
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .header{
+        display: none;
+    }
+    .responsive_header{
+        display: block;
+        padding: 20px 20px 0px 20px;
+    }
+  }
 
 
 
