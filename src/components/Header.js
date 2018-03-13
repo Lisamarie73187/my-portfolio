@@ -1,13 +1,8 @@
 import React, { Component } from 'react'
-// import "animate.css/animate.min.css"
-// import ScrollAnimation from 'react-animate-on-scroll'
+
 
 class Header extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-        }
-    }
+  
 
     render() {
         return (

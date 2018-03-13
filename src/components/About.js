@@ -1,16 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import profilePic from '../assets/ProfilePic.jpg'
 
-class About extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-        }
-    }
 
-    render() {
-        return (
+const About = () => {
+    return (
             <div>
             <div className="gradient_Box">
                 <h1>Hello, I am Lisa</h1>
@@ -39,9 +33,10 @@ class About extends Component {
                 </div>
             </div>
         </div>
-        )
-    }
+
+    )
 }
+
 
 const border = {
     borderRight: '.5px solid white'

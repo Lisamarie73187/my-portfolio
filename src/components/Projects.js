@@ -9,14 +9,7 @@ import scentricAdminPanel from '../assets/scentricAdminPanel.jpg'
 
 
 class Projects extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-        }
-    }
-
-   
-
+    
 
     render() {
         return (

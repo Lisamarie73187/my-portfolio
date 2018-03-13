@@ -17,11 +17,7 @@ import ps from '../assets/icons/ps.png'
 
 
 class Skills extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-        }
-    }
+   
 
     render() {
         return (
