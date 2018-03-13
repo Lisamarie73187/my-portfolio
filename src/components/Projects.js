@@ -3,7 +3,9 @@ import React, { Component } from 'react'
 import goalsy from '../assets/goalsy.jpg'
 import goalsy2 from '../assets/goalsy2.png'
 import goalsylandingPage from '../assets/goalsylandingPage.jpg'
-import scentric from '../assets/scentric.png'
+import scentricHomePage from '../assets/scentricHomePage.jpg'
+import scentricProductPage from '../assets/scentricProductPage.jpg'
+import scentricAdminPanel from '../assets/scentricAdminPanel.jpg'
 
 
 class Projects extends Component {
@@ -45,7 +47,9 @@ class Projects extends Component {
                         </div>
                     </div>
                     <div className="projectPictures">
-                        <img src={scentric} alt="scentric" width="250px"/>
+                        <img src={scentricHomePage} alt="scentric" width="280px"/>
+                        <img src={scentricProductPage} alt="scentric" width="280px"/>
+                        <img src={scentricAdminPanel} alt="scentric" width="280px"/>
                     </div>
                </div>
                 <div>

@@ -1,0 +1,35 @@
+.contact {
+    padding: 200px 420px;
+    div{
+        background : -moz-linear-gradient(92.33% -59.62% -150deg,rgba(216, 172, 88, 1) 0%,rgba(206, 120, 132, 1) 100%);
+        background : -webkit-linear-gradient(-150deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+        background : -webkit-gradient(linear,92.33% -59.62% ,7.67% 159.62% ,color-stop(0,rgba(216, 172, 88, 1) ),color-stop(1,rgba(206, 120, 132, 1) ));
+        background : -o-linear-gradient(-150deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+        background : -ms-linear-gradient(-150deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8AC58', endColorstr='#CE7884' ,GradientType=0)";
+        background : linear-gradient(240deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
+        opacity : 0.98;
+        filter: alpha(opacity=78) progid:DXImageTransform.Microsoft.Alpha(opacity=78) progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8AC58',endColorstr='#CE7884' , GradientType=1);
+        color: white;
+        margin: auto;
+        padding: 15px;
+        text-align: center;
+        font-family: $body_font;
+        font-size: 25pt;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+}
+
+.footer{
+    background-color: $main_color;
+    font-family: $body_font;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    padding: 20px;
+    line-height: 15pt;
+    letter-spacing: .7pt;
+    margin: 0px;
+    font-size: 12pt;
+}

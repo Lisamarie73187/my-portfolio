@@ -11,12 +11,13 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+                <div className="contact">
+                    <div className="button">Download My Résumé</div>
+                </div>
             </div>
         )
     }
 }
-
 
 
 export default Contact

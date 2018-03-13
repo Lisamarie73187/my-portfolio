@@ -77,6 +77,9 @@ class Home extends Component {
                 <section ref={(section) => { this.Skills = section; }}><Skills/></section>
                 <section ref={(section) => { this.Projects = section; }}><Projects/></section>
                 <section ref={(section) => { this.Contact = section; }}><Contact/></section>
+                <div className="footer">
+                    <div>All content copyright Lisa Marie Herzberg 2018 ©</div>
+                </div>
             </div>
         )
     }
