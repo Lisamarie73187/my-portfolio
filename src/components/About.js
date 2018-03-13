@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import profilePic from '../assets/ProfilePic.jpg'
+
 class About extends Component {
     constructor(props) {
         super(props)
@@ -11,9 +13,10 @@ class About extends Component {
         return (
             <div>
             <div className="gradient_Box">
-                <h1>About</h1>
+                <h1>Hello, I am Lisa</h1>
                 <div className="about_line">i</div>
-                <p style={about}>Hello, I am Lisa a full stack developer with a passion for technology and building web products. Due to my previous customer focused background, I bring excellent product knowledge and a deep understanding of product experience. This is what drives me to deliver high-quality code and improves the overall quality of products and services. </p>
+                <div className="profilePicture"><img src={profilePic} alt="profile" width="280px"/></div>
+                <p style={about}>I am a full stack developer and designer with a passion for technology and building web products. Due to my previous customer focused background, I bring excellent product knowledge and a deep understanding of product experience. This is what drives me to deliver high-quality code and improves the overall quality of products and services. </p>
             </div>
             <div className="flex">
                 <div className="darkBox" style={border}>
@@ -45,7 +48,9 @@ const border = {
 }
 
 const about = {
-    fontSize: '14pt'
+    fontSize: '15pt',
+    padding: '0 200px',
+    letterSpacing: '0'
 }
 
 
