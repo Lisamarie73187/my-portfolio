@@ -4,11 +4,7 @@ import Resume from '../assets/LisaHerzberg.pdf'
 
 
 class Contact extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-        }
-    }
+    
 
     render() {
         return (
