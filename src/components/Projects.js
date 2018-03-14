@@ -27,9 +27,9 @@ class Projects extends Component {
                             <div className="projectLinks"><a target="_blank" rel="noopener noreferrer" alt="GitHub Goalsy" href="https://github.com/Lisamarie73187/goal-tracker">GitHub</a></div>
                             </div>
                         <div className="projectPictures">
-                            <img src={goalsylandingPage} alt="goalsyLandingPage" width="280px"/>
-                            <img src={goalsy} alt="goalsy" width="280px"/>
-                            <img src={goalsy2} alt="goalsy2" width="280px"/>
+                            <img src={goalsylandingPage} title="Landing Page" alt="goalsyLandingPage" width="280px"/>
+                            <img src={goalsy} title="Dashboard" alt="goalsy" width="280px"/>
+                            <img src={goalsy2} title="Goals" alt="Goals" width="280px"/>
                         </div>
                     <div>
                         <div className="projectsParagraph">
