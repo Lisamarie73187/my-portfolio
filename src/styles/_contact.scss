@@ -69,3 +69,12 @@
         padding: 100px;
     }
   }
+
+  @media (max-width: 550px) {
+    .contact {
+        padding: 100px 30px;
+        div{
+            font-size: 20pt;
+        }
+    }
+  }

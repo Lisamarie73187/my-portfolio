@@ -8,7 +8,7 @@
     background : linear-gradient(240deg, rgba(216, 172, 88, 1) 0%, rgba(206, 120, 132, 1) 100%);
     opacity : 0.98;
     filter: alpha(opacity=78) progid:DXImageTransform.Microsoft.Alpha(opacity=78) progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8AC58',endColorstr='#CE7884' , GradientType=1);
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .about_line{
@@ -41,7 +41,7 @@
 .flex{
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: baseline;
     align-content: stretch;
@@ -70,3 +70,10 @@
         border-radius: 50%;
     }
 }
+
+@media (max-width: 550px) {
+    .darkBox{
+        border-top: white solid 1px;
+        height: 150px;
+    }
+  }

@@ -21,6 +21,7 @@ class Home extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            
         }
         this.scrollTop = this.scrollTop.bind(this)
         this.scrollAbout = this.scrollAbout.bind(this)
@@ -65,6 +66,10 @@ class Home extends Component {
                         </div>
                             <div className="hero_line">l</div>
                             <div className="title_header">Web Developer<br/>Designer</div>
+                    </div>
+                    <div className="responsive_home">
+                        <div>Lisa Marie Herzberg</div>
+                        <div>Web Developer and Designer</div>
                     </div>
                 </div>
                 <div className="contact_icons">

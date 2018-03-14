@@ -196,6 +196,35 @@ p{
     padding-left: 20px;
 }
 
+// responsive Hero
+
+.responsive_home{
+    // margin-top: 150px;
+    // margin-bottom: 210px;
+    margin: 150px 20px 230px 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: $transparent_box;
+    div:nth-child(1){
+        font-family : $header_fonttwo;
+        color : #FFFFFF;
+        font-size: 28pt;
+        letter-spacing: 1.4pt;
+        line-height: 35pt;
+        padding: 5px 0;
+        border-bottom: $highlight-color 2px solid;
+    }
+    div:nth-child(2){
+        font-family : $body_font;
+        padding: 18px;
+        color : #FFFFFF;
+        font-size: 18pt;
+        letter-spacing: 2pt;
+        line-height: 20pt;
+        font-weight: 100;
+    }
+}
+
 @media (max-width: 1025px) {
     .rapper{
         transform: translateX(-100px)
@@ -209,5 +238,13 @@ p{
   }
 
   @media (max-width: 550px) {
-   
+    .rapper{
+        display: none;
+    }
+    .responsive_menu{
+        display: block;
+    }
+    p{
+        padding: 10px 20px;
+        }
   }
