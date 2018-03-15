@@ -24,7 +24,10 @@ class Projects extends Component {
                                 • User can create goals, add tasks for the goals, and add subtasks to the tasks.<br/>
                                 • User can mark tasks complete and view goal progress.<br/>
                                 • User can view their dashboard showing the overview of goals and analytics using chart.js.</p>
-                            <div className="projectLinks"><a target="_blank" rel="noopener noreferrer" alt="GitHub Goalsy" href="https://github.com/Lisamarie73187/goal-tracker">GitHub</a></div>
+                            <div className="projectLinks">
+                            <a target="_blank" rel="noopener noreferrer" alt="GitHub Goalsy" href="https://github.com/Lisamarie73187/goal-tracker">GitHub</a>
+                            <a target="_blank" rel="noopener noreferrer" alt="Scentric" href="http://goalsy.xyz/#/">Live Site</a>
+                            </div>
                             </div>
                         <div className="projectPictures">
                             <img src={goalsylandingPage} title="Landing Page" alt="goalsyLandingPage" width="280px"/>
